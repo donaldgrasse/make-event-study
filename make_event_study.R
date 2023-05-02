@@ -1,3 +1,6 @@
+#produces an event study plot for a difference-in-differences design 
+#model must be a fixest object!
+
 make_event_study = function(model, xlab, ylab, title){
   
   packs <- c('ggplot2', 'ggthemes')
